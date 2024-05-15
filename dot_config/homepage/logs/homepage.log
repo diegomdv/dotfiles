@@ -1,0 +1,335 @@
+[2024-05-14T01:34:27.396Z] error: <index> YAMLException: end of the stream or a document separator is expected (12:1)
+
+  9 |   hideInternetSearch: false
+ 10 |   showSearchSuggestions: true
+ 11 |   hideVisitURL: false
+ 12 | - search:
+------^
+ 13 |     provider: google # google,  ...
+ 14 |     focus: true # Optional, wil ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2735:5)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at getSettings (/app/.next/server/chunks/2197.js:109:75)
+    at getStaticProps (/app/.next/server/pages/index.js:3000:101)
+    at Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/render.js:386:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doRender (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:687:38)
+[2024-05-14T01:34:27.462Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-05-14T01:34:27.482Z] error: YAMLException: end of the stream or a document separator is expected (12:1)
+
+  9 |   hideInternetSearch: false
+ 10 |   showSearchSuggestions: true
+ 11 |   hideVisitURL: false
+ 12 | - search:
+------^
+ 13 |     provider: google # google,  ...
+ 14 |     focus: true # Optional, wil ...
+[2024-05-14T01:34:27.502Z] error: Failed to load settings.yaml, please check for errors
+[2024-05-14T01:34:27.502Z] error: YAMLException: end of the stream or a document separator is expected (12:1)
+
+  9 |   hideInternetSearch: false
+ 10 |   showSearchSuggestions: true
+ 11 |   hideVisitURL: false
+ 12 | - search:
+------^
+ 13 |     provider: google # google,  ...
+ 14 |     focus: true # Optional, wil ...
+[2024-05-14T01:34:27.511Z] error: Failed to load settings.yaml, please check for errors
+[2024-05-14T01:34:27.512Z] error: YAMLException: end of the stream or a document separator is expected (12:1)
+
+  9 |   hideInternetSearch: false
+ 10 |   showSearchSuggestions: true
+ 11 |   hideVisitURL: false
+ 12 | - search:
+------^
+ 13 |     provider: google # google,  ...
+ 14 |     focus: true # Optional, wil ...
+[2024-05-14T01:34:27.604Z] error: end of the stream or a document separator is expected (12:1)
+
+  9 |   hideInternetSearch: false
+ 10 |   showSearchSuggestions: true
+ 11 |   hideVisitURL: false
+ 12 | - search:
+------^
+ 13 |     provider: google # google,  ...
+ 14 |     focus: true # Optional, wil ...
+[2024-05-14T01:34:27.763Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-05-14T01:34:27.763Z] error: YAMLException: end of the stream or a document separator is expected (12:1)
+
+  9 |   hideInternetSearch: false
+ 10 |   showSearchSuggestions: true
+ 11 |   hideVisitURL: false
+ 12 | - search:
+------^
+ 13 |     provider: google # google,  ...
+ 14 |     focus: true # Optional, wil ...
+[2024-05-14T01:34:27.769Z] error: Failed to load settings.yaml, please check for errors
+[2024-05-14T01:34:27.769Z] error: YAMLException: end of the stream or a document separator is expected (12:1)
+
+  9 |   hideInternetSearch: false
+ 10 |   showSearchSuggestions: true
+ 11 |   hideVisitURL: false
+ 12 | - search:
+------^
+ 13 |     provider: google # google,  ...
+ 14 |     focus: true # Optional, wil ...
+[2024-05-14T01:34:27.771Z] error: Failed to load settings.yaml, please check for errors
+[2024-05-14T01:34:27.772Z] error: YAMLException: end of the stream or a document separator is expected (12:1)
+
+  9 |   hideInternetSearch: false
+ 10 |   showSearchSuggestions: true
+ 11 |   hideVisitURL: false
+ 12 | - search:
+------^
+ 13 |     provider: google # google,  ...
+ 14 |     focus: true # Optional, wil ...
+[2024-05-14T02:29:33.902Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T02:29:33.906Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media\ Vault/
+----------^
+ 10 | 
+ 11 | - search:
+[2024-05-14T02:29:33.926Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T02:29:33.926Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media\ Vault/
+----------^
+ 10 | 
+ 11 | - search:
+[2024-05-14T02:29:34.186Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T02:29:34.187Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media\ Vault/
+----------^
+ 10 | 
+ 11 | - search:
+[2024-05-14T02:29:44.396Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T02:29:44.403Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media Vault/
+----------^
+ 10 | 
+ 11 | - search:
+[2024-05-14T02:29:44.442Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T02:29:44.442Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media Vault/
+----------^
+ 10 | 
+ 11 | - search:
+[2024-05-14T02:29:44.596Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T02:29:44.596Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media Vault/
+----------^
+ 10 | 
+ 11 | - search:
+[2024-05-14T02:56:18.620Z] error: undefined
+[2024-05-14T02:56:18.644Z] error: Failed to load services.yaml, please check for errors
+[2024-05-14T02:56:18.644Z] error: TypeError: Cannot convert undefined or null to object
+[2024-05-14T02:56:18.649Z] error: Failed to load services.yaml, please check for errors
+[2024-05-14T02:56:18.649Z] error: TypeError: Cannot convert undefined or null to object
+[2024-05-14T02:56:19.284Z] error: Failed to load services.yaml, please check for errors
+[2024-05-14T02:56:19.284Z] error: TypeError: Cannot convert undefined or null to object
+[2024-05-14T03:08:59.685Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:08:59.690Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media\ Vault/
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:08:59.769Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:08:59.769Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media\ Vault/
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:08:59.979Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:08:59.979Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media\ Vault/
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:13.394Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:13.396Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media Vault/
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:13.417Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:13.421Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media Vault/
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:13.660Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:13.661Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media Vault/
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:27.253Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:27.254Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: "/Volumes/Media Vault/""
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:27.312Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:27.312Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: "/Volumes/Media Vault/""
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:27.481Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:27.482Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: "/Volumes/Media Vault/""
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:35.255Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:35.257Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: "/Volumes/Media Vault/"
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:35.274Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:35.275Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: "/Volumes/Media Vault/"
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:35.489Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:35.490Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: "/Volumes/Media Vault/"
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:48.047Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:48.052Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: '/Volumes/Media Vault/'
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:48.124Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:48.125Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: '/Volumes/Media Vault/'
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:09:48.385Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:09:48.386Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: '/Volumes/Media Vault/'
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:10:03.364Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:10:03.365Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media%20%Vault/
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:10:03.404Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:10:03.405Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media%20%Vault/
+----------^
+ 10 | 
+ 11 | - datetime:
+[2024-05-14T03:10:03.585Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-05-14T03:10:03.586Z] error: duplicated mapping key (9:5)
+
+  6 |     cpu: true
+  7 |     memory: true
+  8 |     disk: /
+  9 |     disk: /Volumes/Media%20%Vault/
+----------^
+ 10 | 
+ 11 | - datetime:

@@ -1,0 +1,30 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+
+title: DDV Homepage
+target: _self # Possible options include _blank, _self, and _top
+
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: false
+  showSearchSuggestions: true
+  hideVisitURL: false
+
+#color: slate # Possible options: slate, gray, zinc, neutral, stone, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose, red, white
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+headerStyle: boxed
+
+layout:
+  GBD Webs:
+    tab: GBD
+  GBD Tools:
+    tab: GBD
+  GBD MKT:
+    tab: GBD
+  Personal:
+    tab: Personal

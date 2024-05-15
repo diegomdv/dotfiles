@@ -1,0 +1,60 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- GBD Webs:
+    - ADH.com:
+        href: https://adh.com/
+        description: A D H Corp
+        ping: https://adh.com/
+
+    - ATELIERdeHoteles.com:
+        href: https://atelierdehoteles.com/
+        description: ADH ATELIER de Hoteles
+        ping: https://atelierdehoteles.com/
+    - ATPM:
+        href: https://atelierdehoteles.com/atelier-playa-mujeres
+        description: ATPM
+    - OLCP:
+        href: https://atelierdehoteles.com/oleo-cancun-playa
+        description: OLCP
+    - Booking Engine:
+        href: https://reserve.atelierdehoteles.com/
+        description:
+        ping: https://reserve.atelierdehoteles.com/
+
+    - GrupoBD:
+        href: https://grupobd.mx/
+        description:
+        ping: https://grupobd.mx/
+
+- GBD Tools:
+    - CMS:
+        href: https://adh-cms.azurewebsites.net/
+        description: CMS
+    - App BackEnd:
+    - CRS:
+    - PMS:
+    - CC:
+    - CIO:
+    - ZenDesk:
+    - Reports:
+    - Intranet:
+    - FogBugz:
+
+- GBD MKT:
+    - Google AdWords:
+    - Microsoft Ads:
+    - Meta Ads:
+    - TikTok Ads:
+
+- Personal:
+    - DMDV.me:
+        href: http://dmdv.me/
+        description: DMDV Website
+        ping: http://dmdv.me/
+
+#- My Third Group:
+#    - My Third Service:
+#        href: http://localhost/
+#        description: Homepage is 😎
